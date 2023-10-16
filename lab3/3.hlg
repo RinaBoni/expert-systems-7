@@ -1,0 +1,66 @@
+
+
+Marriages (bigamy allowed):
+
+Marrying akonit and hair
+Marrying akonit and snake_eggs
+Marrying akonit and moiran
+Marrying hair and snake_eggs
+Marrying hair and moiran
+Marrying snake_eggs and moiran
+
+
+Triangulation by minimum fill-in weight heuristic:
+Fill-in links and node numbering:
+
+    5 posion
+    4 snake_eggs
+    3 moiran
+    2 hair
+    1 akonit
+
+
+Cliques:
+
+Clique 1, 5 members (akonit, hair, moiran, snake_eggs, posion), table size = 3
+Total clique table size: 3
+
+
+The junction forest:
+
+Creating junction tree with clique 1 as root ...
+
+
+Checking tables for all nodes ...
+
+
+
+Assignment of potentials to cliques:
+
+Node hair assigned to clique 1
+Node posion assigned to clique 1
+Node snake_eggs assigned to clique 1
+Node moiran assigned to clique 1
+Node akonit assigned to clique 1
+
+
+Checking tables for all nodes ...
+
+
+
+Mon Oct 16 15:40:41 2023
+
+
+Beliefs for chance nodes:
+
+-> hair                   state0
+   posion --
+      Mean: 0.000000   Variance: 0.000000   SD: 0.000000
+   snake_eggs --
+      Mean: 3.000000   Variance: 2.000000   SD: 1.414214
+   moiran --
+      Mean: 130.000000   Variance: 25.000000   SD: 5.000000
+   akonit --
+      friends    0.333333
+      lovers     0.333333
+      love_for_life 0.333333
