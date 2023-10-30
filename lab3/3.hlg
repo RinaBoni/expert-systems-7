@@ -22,8 +22,8 @@ Fill-in links and node numbering:
 
 Cliques:
 
-Clique 1, 5 members (akonit, hair, moiran, snake_eggs, posion), table size = 3
-Total clique table size: 3
+Clique 1, 5 members (akonit, hair, moiran, snake_eggs, posion), table size = 6
+Total clique table size: 6
 
 
 The junction forest:
@@ -48,19 +48,21 @@ Checking tables for all nodes ...
 
 
 
-Mon Oct 16 15:40:41 2023
+Mon Oct 30 15:00:35 2023
 
 
 Beliefs for chance nodes:
 
--> hair                   state0
+   hair --
+      good result 0.166667
+      death      0.833333
    posion --
-      Mean: 0.000000   Variance: 0.000000   SD: 0.000000
+      Mean: 27240.800010   Variance: 1092604.329422   SD: 1045.277154
    snake_eggs --
       Mean: 3.000000   Variance: 2.000000   SD: 1.414214
    moiran --
-      Mean: 130.000000   Variance: 25.000000   SD: 5.000000
+      Mean: 165.000000   Variance: 25.000000   SD: 5.000000
    akonit --
-      friends    0.333333
-      lovers     0.333333
-      love_for_life 0.333333
+      friends    0.200000
+      lovers     0.300000
+      love_for_life 0.500000
